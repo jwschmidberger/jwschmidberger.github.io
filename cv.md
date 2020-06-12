@@ -3,22 +3,17 @@ layout: resume
 ---
 ## Currently
 
-Current Position Description
+Waiting to take up position in UK. Can't travel due to COVID 19.
 
 ## Education
 
-`1990 - 1994`
-__University Name__
-Degree Awarded
+`1993 - 1997`
+__Murdoch University__
+BSc in Environmental Science (Honours)
 
-`1995 - 1997`
-__University Name__
-Degree Awarded 
-
-## Awards
-
-`2012`
-Name of Award, Organization 
+`2002 - 2007`
+__The University of Western Australia__
+PhD in Structural Biology
 
 ## Publications
 
