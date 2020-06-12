@@ -1,19 +1,19 @@
 # Site wide configuration
 
-title: Academic Website of Ted Laderas
+title: Website of Jason Schmidberger
 locale: en_US
 logo: # filename of a logo image that has been placed into your images directory
 
 # Enter the following platform usernames if you would like for them to appear on your site.
 owner:
-  name: Ted Laderas
-  avatar: bio-photo.jpg
-  bio: "This is a sample Jekyll academic website."
-  email: laderast@ohsu.edu
-  # Do not include the @ symbol in your Twitter username
-  twitter: laderast
-  linkedin: #username
-  github: laderast
+  name: Jason Schmidberger
+  avatar: DSC_4995.jpg
+  bio: "Very experienced research scientist and data analyst. I have recently been developing my data science skills as I see this as a growth area going forward. "
+  email: jason.schmidberger@gmail.com
+# Do not include the @ symbol in your Twitter username
+  twitter: 
+  linkedin: jwschmidberger #username
+  github: jwschmidberger
   orcid: # ID Number (ex. 0000-0000-0000-0000)
   researchgate: #username
   mendeley: #username
