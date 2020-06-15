@@ -2,6 +2,9 @@
 - title: Home
   url: /
 
+- title: Recent Projects
+  url: /Recent_projects
+
 - title: Presentations
   url: /presentations/
 
@@ -14,5 +17,3 @@
 - title: Workshops
   url: /workshops/
   
-- title: Recent Projects
-  url: /Recent_projects
