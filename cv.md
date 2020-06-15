@@ -67,8 +67,7 @@ __Bioinformatician__, Monash University
  
 
 ## Publications
-A list of my publications can be found on Google Scholar
-[online](https://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ)
+A list of my publications can be found on [Google Scholar](https://scholar.google.com/citations?user=pMLL7IoAAAAJ&hl=en)
 
 
 ### Book Chapter
