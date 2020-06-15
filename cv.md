@@ -18,16 +18,20 @@ PhD in Structural Biology
 ## Occupation
 
 `Current`
-__Current Job Title__, Current Employer 
+__Senior Scientist__, Evotec 
 
-- Task
-- Task
+- Waiting for clearance to move to UK
 
-`1994-1996`
-__Current Job Title__, Current Employer 
+`2016-2019`
+__Research Scientist__, The University of Western Australia 
 
-- Task
-- Task
+- Project planning and management
+- Equipment/facility management
+- Team supervision for group of >10 researchers
+- Managed successful collaborations with external stakeholders
+- System administration of Linux cloud server
+- Undergraduate lecturing 
+
 
 ## Publications
 
