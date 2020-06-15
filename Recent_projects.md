@@ -9,8 +9,9 @@ I have recently concluded an online course in Data Science through the **[edX](h
 The final Capstone module involved two machine learning projects that were designed to showcase the skills developed throughout the course. 
 
 ## Project 1: MovieLens Recommender System
-This project centered on a modified version of the **[MovieLens](https://grouplens.org/datasets/movielens/)** database and in it I created a recommender system through a range of methods, each building on eachother to result in a model that had an RMSE of 0.8602. A pdf report of my work can be found **[here](/pdfs/200328_Capstone_sub.pdf)**. To see the Rmd file click **[here](/Rmd_files/200328_Capstone_sub.Rmd)**.
+This project centered on a modified version of the **[MovieLens](https://grouplens.org/datasets/movielens/)** database and in it I created a recommender system through a range of methods, each building on eachother to result in a model that had an RMSE of 0.8602. A pdf report of my work can be found **[here](/pdfs/200328_Capstone_sub.pdf)**. To see the Rmd file click **[here](/pdfs/200328_Capstone_sub.Rmd)**.
 
-I have been working on **[creditcard](/pdfs/200529_creditcard3.pdf)**
+## Project 2: Credit Card Fraud
+In the second project we were free to choose what ever dataset we wished. I chose a dataset that dealt with credit card fraud in Europe in 2013 as I get a particular satisfaction from the idea of catching fraudsters. The dataset I chose turned out to be far from trivial as it was good example of highly imbalanced data with respect to the response variable. My **[report](/pdfs/200529_creditcard3.pdf)** highlights a kind of journed of discovery, effectivly showcasing my methodology to problem solving rather than just reporting a final polished model. You can also get the Rmd file for the project **[here](/pdfs/200529_creditcard3.Rmd)**.
 
 
