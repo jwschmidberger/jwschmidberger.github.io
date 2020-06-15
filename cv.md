@@ -20,7 +20,8 @@ PhD in Structural Biology
 `Current`
 __Senior Scientist__, Evotec 
 
-- Waiting for clearance to move to UK
+- Waiting for clearance to move to UK (Stalled by COVID 19 crisis)
+
 
 `2016-2019`
 __Research Scientist__, The University of Western Australia 
@@ -31,6 +32,45 @@ __Research Scientist__, The University of Western Australia
 - Managed successful collaborations with external stakeholders
 - System administration of Linux cloud server
 - Undergraduate lecturing 
+
+
+`2015-2016`
+__Research Scientist__, The University of Sydney 
+
+- Took key project to published outcome in < 1 year
+- Learnt electron microscopy in < 1 year (a highly specialised/technical methodology)
+- Protein complex modelling using high performance computing and integrated software systems
+
+
+`2013-2015`
+__Research Scientist__, The University of Manchester (UK)
+
+- Close collaboration with big Pharma (GSK), requiring frequent progress updates with stakeholders
+- Published book chapter on Biocatalysis
+- Developed a novel biocatalyst for industrial application
+
+
+`2010-2013`
+__Research Scientist__, Karolinska Institute (Sweden) 
+
+- Project planning and management
+- Multidisciplinary EU AEROPATH project with high throughput data flow, rapid decision making, and outcome orientated
+- Discovered putative lead compound for novel antibiotic target
+
+
+`2009-2010`
+__Visiting Academic__, The University of Saint Andrews (UK)
+
+- Solved structure of first in class biocatalyst with instantaneous recognition from best in the field
+- Published two articles within 1 year
+- Team supervision of 8 researchers 
+
+
+`2008-2009`
+__Bioinformatician__, Monash University
+
+- Developed a GRID computing system for application of highly parallel algorithms
+- Created of software pipelines for streamlining data analysis 
 
 
 ## Publications
