@@ -1,7 +1,6 @@
 ---
 layout: resume
 ---
-## Currently
 
 Waiting to take up position in UK. Can't travel due to COVID 19.
 
