@@ -15,5 +15,5 @@ I have a proven record of adaptability, and fast learning. I am eager to complim
 
 - Data Science
 - Wood working
-- Academia
+- Research Science
 
