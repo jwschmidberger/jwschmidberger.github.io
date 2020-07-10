@@ -14,7 +14,13 @@ This project centered on a modified version of the **[MovieLens](https://grouple
 ### Project 2: Credit Card Fraud
 In the second project we were free to choose what ever dataset we wished. I chose a dataset that dealt with credit card fraud in Europe in 2013 as I get a particular satisfaction from the idea of catching fraudsters. The dataset I chose turned out to be far from trivial as it was good example of highly imbalanced data with respect to the response variable. My **[report](/pdfs/200529_creditcard3.pdf)** highlights a kind of journey of discovery, effectivly showcasing my problem solving methodology rather than just reporting a final polished model. You can also get the Rmd file for the project **[here](/pdfs/200529_creditcard3.Rmd)**. Techinques used: Regression analysis (linear and logistic), Random Forests (Rborist and RandomForest), data balancing (SMOTE). 
 
+#### Example images.
 
+A quick look at the distribution of tranactions, plotting the amount of each tranaction as a function of time, you can already start to see a trend where by fraudulent transactions tend to be lower in value. (NOTE: at this point I was still treating the cases as a numerics so the key is a continuum between 0 and 1.)
+<img src="./images/temp.png" width="800" />
+
+
+When I focus instead on plotting amounts of the transaction vs the time that passes since the previous transaction, again a trend starts to be observed. Fruadulent transactions tended to occur in quick succession.  
 <img src="./images/temp2.png" width="800" />
 
 
