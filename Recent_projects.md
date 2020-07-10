@@ -27,6 +27,7 @@ However the biggest driver of the model regarding predictive power was a princip
 <img src="./images/temp3.png" width="800" />
 
 Application of random forests to predict fraud was a bit variable in outcome. Being a highly imbalanced dataset I decided to apply the SMOTE algorithm to both over and under sample the dataset to address this imbalance in the response variable. I also decided to apply a Cost Sensitive Learning (CSL) metric to the machine learning algorithm I was building to minimise false negatives (missing a case of fraud) at the expense of false positives (predicting fraud when it was non-fraud). The way I figured it, the banks would rather catch all fraud cases, and have to wade through a few more false positives with closer scrutiny.  
+NOTE: perc_o and perc_u are SMOTE parameters the determine the level of over and undersampling respectively. 
 <img src="./images/temp5.png" width="800" />
 
 The final model was able to predict all fraud cases out of 25633 transactions with only 33 false positives. 
