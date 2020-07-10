@@ -14,6 +14,7 @@ I have a proven record of adaptability, and fast learning. I am eager to complim
 ## Current Interests and Projects:
 
 - Data Science
-- Wood working
 - Research Science
+- Hand crafting with native timbers 
+- Running
 
