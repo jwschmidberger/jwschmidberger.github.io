@@ -16,7 +16,7 @@ In the second project we were free to choose what ever dataset we wished. I chos
 
 #### Project summary.
 
-A quick look at the distribution of tranactions, plotting the amount of each tranaction as a function of time, you can already start to see a trend where by fraudulent transactions tend to be lower in value. Class 1 = Fraud case, Class 2 = Non-fraud. (NOTE: at this point I was still treating the cases as a numerics so the key is a continuum between 0 and 1.)
+A quick look at the distribution of tranactions, plotting the amount of each tranaction as a function of time, you can already start to see a trend where by fraudulent transactions tend to be lower in value. Class 1 = Fraud case, Class 2 = Non-fraud. (NOTE: at this point I was still treating the classes as a numerics so the key is a continuum between 0 and 1.)
 <img src="./images/temp.png" width="800" />
 
 
@@ -26,6 +26,9 @@ When I focus instead on plotting amounts of the transaction vs the time that pas
 However the biggest driver of the model regarding predictive power was a principle component analysis that was already performed on data. The original predictors that yielded these 28 PCs remains hidden from the public (presumably for privacy reasons). Below is a series of plots contrasting low order PCs and high order PCs. The lower order PCs contributed more to sample variance than the higher order PCs. 
 <img src="./images/temp3.png" width="800" />
 
+Application of random forests to predict fraud was a bit variable in outcome. Being a highly imbalanced dataset I decided to apply the SMOTE algorithm to both over and under sample the dataset to address this imbalance in the response variable. I also decided to apply a Cost Sensitive Learning (CSL) metric to the machine learning algorithm I was building to minimise false negatives (missing a case of fraud) at the expense of false positives (predicting fraud when it was non-fraud). The way I figured it, the banks would rather catch all fraud cases, and have to wade through a few more false positives with closer scrutiny.  
+<img src="./images/temp5.png" width="800" />
 
+The final model was able to predict all fraud cases out of 25633 transactions with only 33 false positives. 
 
 
