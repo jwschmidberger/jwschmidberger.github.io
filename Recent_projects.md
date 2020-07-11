@@ -24,7 +24,7 @@ A quick look at the distribution of tranactions, plotting the amount of each tra
 When I focus instead on plotting amounts of the transaction vs the time that passes since the previous transaction, again a trend starts to be observed. Fruadulent transactions tended to occur in quick succession. Class 1 = Fraud case, Class 2 = Non-fraud. 
 
 <img src="images/temp2.png" alt="figure2" class="inline" width="800"/>
-
+![figure 2]({{ https://jwschmidberger.github.io }}/images/temp2.png)
 
 However the biggest driver of the model regarding predictive power was a principle component analysis that was already performed on data. The original predictors that yielded these 28 PCs remains hidden from the public (presumably for privacy reasons). Below is a series of plots contrasting low order PCs and high order PCs. The lower order PCs contributed more to sample variance than the higher order PCs. 
 
