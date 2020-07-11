@@ -18,7 +18,7 @@ In the second project we were free to choose what ever dataset we wished. I chos
 
 A quick look at the distribution of tranactions, plotting the amount of each tranaction as a function of time, you can already start to see a trend where by fraudulent transactions tend to be lower in value. Class 1 = Fraud case, Class 2 = Non-fraud. (NOTE: at this point I was still treating the classes as a numerics so the key is a continuum between 0 and 1.)
 
-<img src="https://github.com/jwschmidberger/jwschmidberger.github.io/tree/master/images/temp.png" alt="figure1" class="inline" width="800"/>
+<img src="./images/temp.png" alt="figure1" class="inline" width="800"/>
 
 
 When I focus instead on plotting amounts of the transaction vs the time that passes since the previous transaction, again a trend starts to be observed. Fruadulent transactions tended to occur in quick succession. Class 1 = Fraud case, Class 2 = Non-fraud. 
