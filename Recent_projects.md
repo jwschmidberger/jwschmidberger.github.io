@@ -18,24 +18,20 @@ In the second project we were free to choose what ever dataset we wished. I chos
 
 A quick look at the distribution of tranactions, plotting the amount of each tranaction as a function of time, you can already start to see a trend where by fraudulent transactions tend to be lower in value. Class 1 = Fraud case, Class 2 = Non-fraud. (NOTE: at this point I was still treating the classes as a numerics so the key is a continuum between 0 and 1.)
 
-<img src="./images/temp.png" alt="figure1" class="inline" width="800"/>
-
+![figure 1]({{ https://jwschmidberger.github.io }}/images/temp.png)
 
 When I focus instead on plotting amounts of the transaction vs the time that passes since the previous transaction, again a trend starts to be observed. Fruadulent transactions tended to occur in quick succession. Class 1 = Fraud case, Class 2 = Non-fraud. 
 
-<img src="images/temp2.png" alt="figure2" class="inline" width="800"/>
 ![figure 2]({{ https://jwschmidberger.github.io }}/images/temp2.png)
 
 However the biggest driver of the model regarding predictive power was a principle component analysis that was already performed on data. The original predictors that yielded these 28 PCs remains hidden from the public (presumably for privacy reasons). Below is a series of plots contrasting low order PCs and high order PCs. The lower order PCs contributed more to sample variance than the higher order PCs. 
 
-<img src="images/temp3.png" alt="figure3" class="inline" width="800"/>
-
+![figure 3]({{ https://jwschmidberger.github.io }}/images/temp3.png)
 
 Application of random forests to predict fraud was a bit variable in outcome. Being a highly imbalanced dataset I decided to apply the SMOTE algorithm to both over and under sample the dataset to address this imbalance in the response variable. I also decided to apply a Cost Sensitive Learning (CSL) metric to the machine learning algorithm I was building to minimise false negatives (missing a case of fraud) at the expense of false positives (predicting fraud when it was non-fraud). The way I figured it, the banks would rather catch all fraud cases, and have to wade through a few more false positives with closer scrutiny.  
 NOTE: perc_o and perc_u are SMOTE parameters the determine the level of over and undersampling respectively. 
 
-<img src="images/temp5.png" alt="figure4" class="inline" width="800"/>
-
+![figure 4]({{ https://jwschmidberger.github.io }}/images/temp5.png)
 
 The final model was able to predict all fraud cases out of 25633 transactions with only 33 false positives. 
 
