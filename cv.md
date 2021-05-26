@@ -2,7 +2,7 @@
 layout: resume
 ---
 
-Currently I am waiting to take up position in UK. My family and I can't travel due to COVID 19.
+Currently I am working for Evotec Ltd UK as a Senior Scientist. This is a Contract Research Organisation. My role is to serve as an experienced scientific consultant for clients. 
 
 ## Education
 
