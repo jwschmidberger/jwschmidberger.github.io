@@ -3,6 +3,10 @@ layout: page
 title: Recent projects
 ---
 
+## Neural Network development to predict Survival for the Titanic Cruise
+In an effort to play around with Neural Network developement I turned my hand at the Kaggle Titanic competition. Implemented in Python and using the Keras package, this effort was able to get to a 78% accuracy in predicting test data survival rates. You can see the Jupyter Notebook **[here](/ntbooks/210318_Titanic1.ipynb)**. Though a little buggy, the algorighm runs well. 
+
+
 ## edX Data Science Professional Certificate
 I have recently concluded an online course in Data Science through the **[edX](https://courses.edx.org/dashboard)**. The **[course](https://courses.edx.org/dashboard/programs/3c32e3e0-b6fe-4ee4-bd4f-210c6339e074/)**, is broken up into nine modules covering diverse aspects of data science, from data wrangling to machine learning, through the use of R. 
 
