@@ -2,7 +2,7 @@
 layout: resume
 ---
 
-Currently I am working for Evotec Ltd UK as a Senior Scientist. This is a Contract Research Organisation. My role is to serve as an experienced scientific consultant for clients. 
+Currently I am working for Evotec Ltd UK as a Senior Scientist. This is a Contract Research Organisation. My role there to function as an experienced scientific consultant for clients. 
 
 ## Education
 
