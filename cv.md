@@ -19,7 +19,11 @@ PhD in Structural Biology
 `Current`
 __Senior Scientist__, Evotec 
 
-- Waiting for clearance to move to UK (Stalled by COVID 19 crisis)
+- Scientific consultant
+- Stakeholder engagement
+- Project management
+- Highly integrated projects
+- Software development
 
 
 `2016-2019`
