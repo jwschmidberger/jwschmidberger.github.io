@@ -16,7 +16,7 @@ PhD in Structural Biology
 
 ## Occupation
 
-`Current`
+`2020 - Current`
 __Senior Scientist__, Evotec 
 
 - Scientific consultant
