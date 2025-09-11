@@ -8,7 +8,7 @@ logo: # filename of a logo image that has been placed into your images directory
 owner:
   name: Jason Schmidberger
   avatar: portrait_jws.jpg
-  bio: "Experienced research scientist and data analyst. I have recently been developing my data science skills as I see this as a growth area going forward. "
+  bio: "Experienced research scientist turned data scientist specializing in probabilistic modeling, anomaly detection, and reproducible Python pipelines for industrial sensing."
   email: jason.schmidberger@gmail.com
 # Do not include the @ symbol in your Twitter username
   twitter: 
