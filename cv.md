@@ -7,7 +7,7 @@ title: Resume
 Scientist → data scientist with 20+ years across Australia, Scotland, Sweden, and England. I design uncertainty-aware, probabilistic models and ML pipelines for real-world sensing—most recently methane emissions monitoring—turning noisy data into decision-ready insight. Strong stakeholder engagement, clear communication, and delivery focus.
 
 ## Current Role
-**Senior Scientist / Data Scientist — MIRICO (UK) — [YYYY]–Present**  
+**Senior Scientist / Data Scientist — MIRICO (UK) — 2022–Present**  
 - Lead probabilistic methane emissions analytics using **Gaussian plume + Bayesian RJ-MCMC (pyELQ)**.  
 - Build end-to-end Python workflows: spatio-temporal background models, anomaly detection, detection windows, and uncertainty quantification (entropy, overlap metrics).  
 - Integrate with open-path laser sensor arrays (multi-retro networks); align modeling with **OGMP 2.0** reporting needs.  
@@ -15,7 +15,7 @@ Scientist → data scientist with 20+ years across Australia, Scotland, Sweden, 
 - Collaborate with operators and internal stakeholders; mentor a small data science team; drive Agile practices and code reviews.
 
 ## Experience
-**Senior Scientist — Evotec Ltd (UK) — 2020–[YYYY]**  
+**Senior Scientist — Evotec Ltd (UK) — 2020–2021**  
 - Scientific consulting for clients; stakeholder engagement and project management across highly integrated projects.  
 - Developed software and analysis pipelines; coordinated deliverables across multidisciplinary teams.
 
