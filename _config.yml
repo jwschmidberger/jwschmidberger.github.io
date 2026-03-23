@@ -1,21 +1,29 @@
+locale: "en-AU"
+site_theme: "mint"
 title: "Jason Schmidberger"
-description: "Data science portfolio and blog"
+title_separator: "-"
+name: &name "Jason Schmidberger"
+description: &description "Methane analytics and data science portfolio"
 url: "https://jwschmidberger.github.io"
 baseurl: ""
+repository: "jwschmidberger/jwschmidberger.github.io"
 permalink: /blog/:year/:month/:day/:title/
 
 author:
+  avatar: "portrait_jws.jpg"
   name: "Jason Schmidberger"
+  bio: "Data scientist focused on methane emissions analytics, probabilistic modelling, and stakeholder-ready insight."
+  location: "Sydney, Australia"
   email: "jason.schmidberger@gmail.com"
   github: "jwschmidberger"
   linkedin: "jwschmidberger"
-  location: "Sydney, Australia"
+  googlescholar: "https://scholar.google.com/citations?user=pMLL7IoAAAAJ"
 
 markdown: kramdown
 highlighter: rouge
 timezone: Australia/Sydney
 
-remote_theme: daviddarnes/alembic
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
   - jekyll-remote-theme
@@ -25,9 +33,6 @@ plugins:
   - jekyll-include-cache
 
 collections:
-  pages:
-    output: true
-    permalink: /:name/
   posts:
     output: true
     permalink: /blog/:year/:month/:day/:title/
@@ -40,27 +45,23 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: post
+      layout: single
+      author_profile: true
   - scope:
       path: ""
       type: "projects"
     values:
-      layout: page
+      layout: single
+      author_profile: true
   - scope:
       path: ""
     values:
-      layout: page
+      layout: single
+      author_profile: true
 
 sass:
   sass_dir: _sass
   style: compressed
-
-social:
-  github: https://github.com/jwschmidberger
-  linkedin: https://www.linkedin.com/in/jwschmidberger/
-  email: mailto:jason.schmidberger@gmail.com
-
-skin: forest
 
 exclude:
   - node_modules

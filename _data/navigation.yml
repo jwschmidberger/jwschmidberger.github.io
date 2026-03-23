@@ -1,11 +1,11 @@
----
-- title: Home
-  url: "/"
-- title: Projects
-  url: "/projects/"
-- title: Blog
-  url: "/blog/"
-- title: CV
-  url: "/cv/"
-- title: About
-  url: "/about/"
+main:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
+  - title: "CV"
+    url: /cv/
+  - title: "About"
+    url: /about/

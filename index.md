@@ -1,27 +1,34 @@
 ---
-title: Jason Schmidberger
-feature_text: |
-  ## Data science for a greener future
-  Probabilistic modelling, sensing analytics, and actionable storytelling for climate and industrial resilience.
-feature_image: https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80
-intro: |
-  I'm a scientist-turned-data-scientist focused on methane emissions analytics, anomaly detection, and decision-ready insight. My work blends Bayesian modelling, ML engineering, and clear comms to help organisations act faster on environmental signals.
+layout: splash
+title: "Jason Schmidberger"
+permalink: /
+header:
+  overlay_color: "#092c1e"
+  overlay_filter: "0.6"
+  overlay_image: https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2000&q=80
+  caption: "Photo by [NASA](https://unsplash.com/photos/NG3vRO2E2Rg)"
+  actions:
+    - label: "View projects"
+      url: "/projects/"
+    - label: "Read the blog"
+      url: "/blog/"
+excerpt: "Probabilistic methane analytics, ML engineering, and stakeholder-ready communication."
+intro:
+  - excerpt: |
+      I’m a data scientist focused on methane emissions monitoring, anomaly detection, and climate-aligned operations. My work blends Bayesian modelling, plume physics, and practical storytelling so operators can act fast on uncertainty.
+feature_row:
+  - image_path: /images/temp.png
+    title: "Methane analytics"
+    excerpt: "RJ-MCMC plume localisation, OGMP 2.0 reporting.
+"
+  - image_path: /images/temp2.png
+    title: "Recommender systems"
+    excerpt: "MovieLens regularisation project hitting 0.86 RMSE."
+  - image_path: /images/temp3.png
+    title: "Fraud detection"
+    excerpt: "Cost-sensitive forests catching 100% of fraud cases."
+footer:
+  - excerpt: "Let’s connect on [LinkedIn](https://www.linkedin.com/in/jwschmidberger/) or [GitHub](https://github.com/jwschmidberger)."
 ---
-
-{% include button.html text="Explore projects" link="/projects/" %}
-{% include button.html text="Read the blog" link="/blog/" color="#1b5e20" %}
-{% include button.html text="Download CV" link="/cv/" icon="download" %}
-
-## Recent highlights
-
-- Built RJ-MCMC plume localisation workflows meeting OGMP 2.0 reporting requirements.
-- Delivered reproducible Python stacks (NumPy, Pandas, Plotly) for global emissions monitoring programs.
-- Completed the edX Data Science Professional Certificate, shipping two end-to-end ML case studies.
-
-## Collaboration focus
-
-1. Climate tech & industrial sensing (methane, carbon, critical infrastructure)
-2. Research partnerships translating science into deployable analytics
-3. Story-driven reporting that bridges stakeholders, regulators, and operators
-
-Let’s connect on [LinkedIn](https://www.linkedin.com/in/jwschmidberger/) or [GitHub](https://github.com/jwschmidberger).
+{% include feature_row id="intro" type="center" %}
+{% include feature_row %}
