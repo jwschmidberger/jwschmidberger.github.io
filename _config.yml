@@ -1,74 +1,67 @@
-# Site wide configuration
+title: "Jason Schmidberger"
+description: "Data science portfolio and blog"
+url: "https://jwschmidberger.github.io"
+baseurl: ""
+permalink: /blog/:year/:month/:day/:title/
 
-title: Website of Jason Schmidberger
-locale: en_au
-logo: # filename of a logo image that has been placed into your images directory
+author:
+  name: "Jason Schmidberger"
+  email: "jason.schmidberger@gmail.com"
+  github: "jwschmidberger"
+  linkedin: "jwschmidberger"
+  location: "Sydney, Australia"
 
-# Enter the following platform usernames if you would like for them to appear on your site.
-owner:
-  name: Jason Schmidberger
-  avatar: portrait_jws.jpg
-  bio: "Experienced research scientist turned data scientist specializing in probabilistic modeling, anomaly detection, and reproducible Python pipelines for industrial sensing."
-  email: jason.schmidberger@gmail.com
-# Do not include the @ symbol in your Twitter username
-  twitter: 
-  linkedin: jwschmidberger #username
-  github: jwschmidberger
-  orcid: # ID Number (ex. 0000-0000-0000-0000)
-  researchgate: #username
-  mendeley: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    scholar: #id
-  facebook: #username
-  instagram: #username
-  bing-verify:
-  stackoverflow: #123456/username from a "https://stackoverflow.com/users/123456/username" link
-  xing: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
-  disqus-shortname:
-
-# The following adjust the accents for your site. If you would like to further edit colors, fonts, font sizes, etc.
-# you may do so in _sass/variables.scss
-highlight-color: '#CC0000'
-lowlight-color: '#000'
-
-  # NOTE: If you would like your site to be licensed under a creative commons license, uncomment the 'yes' next to the type of license you wish to use.
-creative-commons:
-  cc-by: #yes
-  cc-by-nc: yes
-
-#DO NOT EDIT BEYOND THIS POINT
-# Jekyll configuration
-
-permalink:   /:categories/:title/
-markdown:    kramdown
+markdown: kramdown
 highlighter: rouge
+timezone: Australia/Sydney
+
+remote_theme: pages-themes/cayman@v0.2.0
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: default
+      nav_order: 2
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      permalink: /blog/:year/:month/:day/:title/
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
 sass:
   sass_dir: _sass
   style: compressed
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude:
+  - node_modules
+  - vendor
+  - README.md
+  - Gemfile.lock
+  - .sass-cache
+  - .jekyll-cache
+  - .bundle
+  - package.json
+  - yarn.lock
+  - pdfs
+  - reveal.js
+  - ntbooks

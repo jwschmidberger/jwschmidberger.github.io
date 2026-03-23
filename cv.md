@@ -1,6 +1,8 @@
 ---
-layout: resume
-title: Resume
+layout: default
+title: Curriculum Vitae
+permalink: /cv/
+nav_order: 3
 ---
 
 ## Summary
@@ -51,6 +53,5 @@ See **[Google Scholar](https://scholar.google.com/citations?user=pMLL7IoAAAAJ&hl
 
 ## Book Chapter
 Schmidberger, J. W., Hepworth, L. J., Green, A. P., & Flitsch, S. L. (2014). *Enzymatic Synthesis of Amides*. In K. Faber, W.-D. Fessner, & N. J. Turner (Eds.), **Science of Synthesis: Biocatalysts in Organic Synthesis** (Vol. 1, pp. 329–372). Stuttgart.
-
 
 

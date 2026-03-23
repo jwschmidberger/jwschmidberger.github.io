@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Example content
 excerpt: "What is a static website generator, and why should I care?"
 modified: 2/29/2016, 9:00:24
@@ -52,11 +52,15 @@ adder(2, 6);
 
 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
 
-### Gists via GitHub Pages
+### Embedded snippets
 
 Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.
 
-{% gist 5555251 gist.md %}
+Instead of relying on the `{% raw %}{% gist %}{% endraw %}` tag (which requires the `jekyll-gist` plugin), drop in a fenced code block or link directly to the script:
+
+```text
+https://gist.github.com/poole/5555251
+```
 
 Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.
 

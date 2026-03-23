@@ -1,3 +1,9 @@
-_site/*
-.sass-cache/*
-.idea/*
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+vendor/
+node_modules/
+.idea/
+*.iml
+*.log

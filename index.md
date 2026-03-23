@@ -1,22 +1,20 @@
 ---
-layout: page
-excerpt: "About Me..."
+layout: default
+title: Welcome
+nav_order: 1
 ---
 
-I’m a protein crystallographer turned data scientist with two decades of research experience across Australia, Scotland, Sweden, and England. Early work at the interface of biology, chemistry, physics, and computation led to 20+ peer-reviewed publications. Today, I focus on building reliable, uncertainty-aware models for real-world sensing—most recently Bayesian and machine-learning pipelines for continuous methane emissions monitoring in the energy sector.
+# Hi, I’m Jason Schmidberger
 
-Technically, I work with probabilistic modeling (Bayesian inference, PyMC, RJ-MCMC), Gaussian plume modeling, anomaly detection, and spatio-temporal analysis. I build production-ready Python workflows (NumPy, Pandas, SciPy), interactive visualizations (Plotly), and reproducible cloud/HPC stacks (Linux, Git, Azure/AWS). I care about clear communication and stakeholder alignment, translating noisy data into concise, decision-ready insights.
+Protein crystallographer turned data scientist. I design probabilistic models and ML pipelines for real-world sensing problems—lately methane emissions analytics and spatial anomaly detection. My toolkit spans Python (NumPy/Pandas/PyMC), Bayesian inference, Gaussian plume modeling, and cloud/HPC delivery.
 
-I’m motivated by practical impact—reducing uncertainty, quantifying risk, and improving operational decisions. I’m now seeking roles that combine scientific rigor with modern data science and ML engineering to deliver measurable value in climate/energy, industrial sensing, or similarly data-rich domains.
+- **Focus** – uncertainty-aware analytics, stakeholder-ready insight, and clean, reproducible engineering.
+- **Experience** – 20+ years across academia and industry in Australia, Sweden, Scotland, and the UK.
+- **Impact** – built RJ-MCMC workflows that localize leaks, automated reporting aligned with OGMP 2.0, and taught teams modern data-science practices.
 
-Published **[articles](https://scholar.google.com/citations?user=pMLL7IoAAAAJ&hl=en)**.
+👉 Jump in:
+- [Recent writing]({{ "/blog/" | relative_url }})
+- [Project portfolio]({{ "/projects/" | relative_url }})
+- [Curriculum vitae]({{ "/cv/" | relative_url }})
 
-I have a proven record of adaptability, and fast learning. I am eager to compliment existing skills in order to transition into data science. I am highly motivated and keen to make an impact.
-
-## Current Interests and Projects:
-
-- Data science (probabilistic modeling & ML)
-- Research collaboration and insight delivery
-- Hand crafting with native timbers 
-- Running
-
+Let’s connect on [LinkedIn](https://www.linkedin.com/in/jwschmidberger/) or [GitHub](https://github.com/jwschmidberger).

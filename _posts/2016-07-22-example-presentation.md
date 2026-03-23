@@ -1,5 +1,5 @@
 ---
-layout: slide
+layout: default
 title: Example Reveal.js Presentation Deck
 excerpt: A sample file showing the correct markup for creating a Reveal.js slide deck"
 theme: simple
