@@ -1,10 +1,11 @@
-# Site navigation links
+---
 - title: Home
-  url: /
-
-- title: Recent Projects
-  url: /Recent_projects/
-
+  url: "/"
+- title: Projects
+  url: "/projects/"
+- title: Blog
+  url: "/blog/"
 - title: CV
-  url: /cv/
-
+  url: "/cv/"
+- title: About
+  url: "/about/"

@@ -15,7 +15,7 @@ markdown: kramdown
 highlighter: rouge
 timezone: Australia/Sydney
 
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: daviddarnes/alembic
 
 plugins:
   - jekyll-remote-theme
@@ -25,6 +25,12 @@ plugins:
   - jekyll-include-cache
 
 collections:
+  pages:
+    output: true
+    permalink: /:name/
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
   projects:
     output: true
     permalink: /projects/:title/
@@ -32,25 +38,29 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "projects"
-    values:
-      layout: default
-      nav_order: 2
-  - scope:
-      path: ""
       type: "posts"
     values:
       layout: post
-      permalink: /blog/:year/:month/:day/:title/
   - scope:
       path: ""
-      type: "pages"
+      type: "projects"
     values:
-      layout: default
+      layout: page
+  - scope:
+      path: ""
+    values:
+      layout: page
 
 sass:
   sass_dir: _sass
   style: compressed
+
+social:
+  github: https://github.com/jwschmidberger
+  linkedin: https://www.linkedin.com/in/jwschmidberger/
+  email: mailto:jason.schmidberger@gmail.com
+
+skin: forest
 
 exclude:
   - node_modules

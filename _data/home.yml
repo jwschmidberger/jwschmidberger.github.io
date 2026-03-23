@@ -1,0 +1,29 @@
+hero:
+  title: "Jason Schmidberger"
+  intro: "Scientist → data scientist building probabilistic models for climate and industrial sensing."
+  call_to_action:
+    text: "Explore my work"
+    link: /projects/
+
+features:
+  - title: Methane analytics
+    details: "Bayesian RJ-MCMC workflows localizing methane emissions for OGMP 2.0 reporting."
+  - title: Recommender systems
+    details: "MovieLens pipeline showcasing regularised modeling and validation discipline."
+  - title: Fraud detection
+    details: "SMOTE + cost-sensitive forests catching 100% of fraud cases with minimal false positives."
+
+projects:
+  title: Highlighted projects
+  items:
+    - title: Titanic survival model
+      description: "Neural network + feature engineering for Kaggle's classic challenge."
+      link: /projects/titanic-survival-neural-network/
+    - title: edX capstone
+      description: "Two ML case studies built in R with stakeholder-ready reporting."
+      link: /projects/edx-data-science-professional-certificate/
+
+content:
+  title: Latest writing
+  button: Read all posts
+  link: /blog/
