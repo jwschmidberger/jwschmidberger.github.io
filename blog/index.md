@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: single
 title: Writing
 permalink: /blog/
 nav_order: 4
+author_profile: true
+classes: wide
 ---
 
 # Blog
