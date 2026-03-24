@@ -1,6 +1,9 @@
+title: "Jason Schmidberger"
+title_separator: "-"
+name: &name "Jason Schmidberger"
 locale: "en-AU"
 site_theme: "mint"
-description: &description "Methane analytics and data science portfolio"
+description: "Methane analytics and data science portfolio"
 url: "https://jwschmidberger.github.io"
 baseurl: ""
 repository: "jwschmidberger/jwschmidberger.github.io"
@@ -8,7 +11,7 @@ permalink: /blog/:year/:month/:day/:title/
 
 author:
   avatar: "portrait_jws.jpg"
-  name: "Jason Schmidberger"
+  name: *name
   bio: "Data scientist focused on methane emissions analytics, probabilistic modelling, and stakeholder-ready insight."
   location: "Alnwick, United Kingdom"
   email: "jason.schmidberger@gmail.com"

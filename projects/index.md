@@ -6,8 +6,6 @@ author_profile: true
 classes: wide
 ---
 
-# Projects
-
 {% assign items = site.projects | sort: "title" %}
 {% for project in items %}
 ## [{{ project.title }}]({{ project.url | relative_url }})
