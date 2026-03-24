@@ -1,6 +1,5 @@
 ---
 layout: single
-title: Projects
 permalink: /projects/
 nav_order: 2
 author_profile: true
