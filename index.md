@@ -5,8 +5,8 @@ permalink: /
 header:
   overlay_color: "#092c1e"
   overlay_filter: "0.6"
-  overlay_image: https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2000&q=80
-  caption: "Photo by [NASA](https://unsplash.com/photos/NG3vRO2E2Rg)"
+  overlay_image: /images/donnelly_mill.png
+  caption: "Photo: Donnelly Mill"
   actions:
     - label: "View projects"
       url: "/projects/"
