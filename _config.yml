@@ -1,6 +1,5 @@
 locale: "en-AU"
 site_theme: "mint"
-name: &name "Jason Schmidberger"
 description: &description "Methane analytics and data science portfolio"
 url: "https://jwschmidberger.github.io"
 baseurl: ""
