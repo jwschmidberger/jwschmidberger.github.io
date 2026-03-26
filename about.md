@@ -1,6 +1,6 @@
 ---
-title: About
-permalink: /about/
+# title: About
+# permalink: /about/
 ---
 
 # Hi, I’m Jason Schmidberger
