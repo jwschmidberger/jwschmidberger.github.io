@@ -11,12 +11,14 @@ classes: wide
 Scientist → data scientist with 20+ years across Australia, Scotland, Sweden, and England. I design uncertainty-aware, probabilistic models and ML pipelines for real-world sensing—most recently methane emissions monitoring—turning noisy data into decision-ready insight. Strong stakeholder engagement, clear communication, and delivery focus.
 
 ## Current Role
-**Senior Scientist / Data Scientist — MIRICO (UK) — 2022–Present**  
-- Lead probabilistic methane emissions analytics using **Gaussian plume + Bayesian RJ-MCMC (pyELQ)**.  
-- Build end-to-end Python workflows: spatio-temporal background models, anomaly detection, detection windows, and uncertainty quantification (entropy, overlap metrics).  
-- Integrate with open-path laser sensor arrays (multi-retro networks); align modeling with **OGMP 2.0** reporting needs.  
-- Deliver interactive Plotly dashboards and reproducible cloud/HPC pipelines (**Linux, Git, Azure/AWS**).  
-- Collaborate with operators and internal stakeholders; mentor a small data science team; drive Agile practices and code reviews.
+**Senior Data Scientist — MIRICO (UK) — 2022–Present**  
+- Lead development of probabilistic methane emissions models using Gaussian plume + Bayesian RJ-MCMC (pyELQ) for source localisation and quantification.
+- Architect end-to-end Python pipelines for spatio-temporal background modelling, anomaly detection, event windowing, and uncertainty quantification (entropy, spatial overlap, posterior diagnostics).
+- Advance modelling capability towards 2D/3D advection–diffusion and Bayesian state estimation frameworks, improving physical realism and scalability.
+- Integrate analytics with open-path laser sensor networks (multi-retro systems); align outputs with OGMP 2.0 measurement-informed reporting.
+- Deliver interactive analytics and reporting via Plotly dashboards and cloud/HPC pipelines (Linux, Git, Azure/AWS).
+- Lead stakeholder engagement with operators; translate complex probabilistic outputs into actionable insights and regulatory-aligned metrics.
+- Mentor and guide a data science team; drive Agile delivery, code quality, and best practices across projects.
 
 ## Experience
 **Senior Scientist — Evotec Ltd (UK) — 2020–2021**  
