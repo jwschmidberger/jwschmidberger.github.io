@@ -10,8 +10,6 @@ header:
   actions:
     - label: "View projects"
       url: "/projects/"
-    - label: "Read the blog"
-      url: "/blog/"
 excerpt: "Probabilistic methane analytics, ML engineering, and stakeholder-ready communication."
 intro:
   - excerpt: |
