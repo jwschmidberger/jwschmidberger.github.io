@@ -5,8 +5,8 @@ permalink: /
 header:
   overlay_color: "#092c1e"
   overlay_filter: "0.6"
-  overlay_image: /images/donnelly_mill.png
-  caption: "Photo: Donnelly Mill"
+  overlay_image: /images/karri_forest.png
+  caption: "Photo: Karri Forests"
   actions:
     - label: "View projects"
       url: "/projects/"
