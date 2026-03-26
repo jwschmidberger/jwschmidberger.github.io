@@ -1,9 +1,7 @@
 ---
-# title: About
+title: Hi, I’m Jason Schmidberger
 permalink: /about/
 ---
-
-# Hi, I’m Jason Schmidberger
 
 Protein crystallographer turned data scientist. I design probabilistic models and physics-informed ML pipelines for real-world sensing problems—currently focused on methane emissions analytics, source localisation, and spatial anomaly detection. My toolkit spans Python (NumPy/Pandas/PyMC), Bayesian inference, Gaussian plume and advection–diffusion modelling, and cloud-based delivery.
 
