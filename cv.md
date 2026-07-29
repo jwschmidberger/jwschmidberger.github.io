@@ -8,17 +8,41 @@ classes: wide
 ---
 
 ## Summary
-Scientist → data scientist with 20+ years across Australia, Scotland, Sweden, and England. I design uncertainty-aware, probabilistic models and ML pipelines for real-world sensing—most recently methane emissions monitoring—turning noisy data into decision-ready insight. Strong stakeholder engagement, clear communication, and delivery focus.
+
+Applied Scientist and Senior Data Scientist with 20+ years of experience spanning environmental science, structural biology, and industrial sensing across Australia, Scotland, Sweden, and England.
+
+I specialise in Bayesian inference, uncertainty quantification, physics-informed modelling, and machine learning, developing scalable analytical systems that transform noisy real-world sensor data into robust, decision-ready insight.
+
+In my current role at MIRICO, I lead the development of probabilistic methane emissions algorithms, combining Gaussian plume modelling, Bayesian RJ-MCMC, anomaly detection, and spatio-temporal modelling to deliver commercial monitoring solutions for industrial and environmental applications. My work spans algorithm development, cloud-based analytical pipelines, stakeholder engagement, and the translation of complex statistical outputs into practical business and regulatory decisions.
+
+Throughout my career I have combined deep scientific research with software engineering and data science, publishing over 20 peer-reviewed papers while delivering production analytical systems used outside academia. I enjoy solving difficult modelling problems where uncertainty, sparse observations, and physical processes must all be considered together.
+
+
+## Research Interests
+
+My interests lie at the intersection of probabilistic modelling, environmental sensing, and scientific computing. I enjoy developing methods that combine physical models with statistical inference to solve challenging real-world problems, particularly where uncertainty, sparse observations, and complex dynamical systems are involved.
+
+Current areas of focus include:
+
+- Bayesian inference and uncertainty quantification
+- Physics-informed machine learning
+- Atmospheric transport modelling
+- Environmental sensor analytics
+- Data assimilation and Bayesian state estimation
+- Scientific software engineering
+
 
 ## Current Role
-**Senior Data Scientist — MIRICO (UK) — 2022–Present**  
-- Lead development of probabilistic methane emissions models using Gaussian plume + Bayesian RJ-MCMC (pyELQ) for source localisation and quantification.
-- Architect end-to-end Python pipelines for spatio-temporal background modelling, anomaly detection, event windowing, and uncertainty quantification (entropy, spatial overlap, posterior diagnostics).
-- Advance modelling capability towards 2D/3D advection–diffusion and Bayesian state estimation frameworks, improving physical realism and scalability.
-- Integrate analytics with open-path laser sensor networks (multi-retro systems); align outputs with OGMP 2.0 measurement-informed reporting.
-- Deliver interactive analytics and reporting via Plotly dashboards and cloud/HPC pipelines (Linux, Git, Azure/AWS).
-- Lead stakeholder engagement with operators; translate complex probabilistic outputs into actionable insights and regulatory-aligned metrics.
-- Mentor and guide a data science team; drive Agile delivery, code quality, and best practices across projects.
+
+**Senior Data Scientist — MIRICO (UK) — 2022–Present**
+
+- Lead the design and development of Bayesian inference algorithms for methane detection, source localisation, and emissions quantification using Gaussian plume and probabilistic modelling.
+- Develop scalable Python analytics pipelines for high-frequency environmental sensor data, uncertainty quantification, anomaly detection, and event analytics.
+- Advance the company's modelling capability towards physics-informed 2D/3D advection–diffusion and Bayesian state-estimation frameworks.
+- Architect cloud-based analytical workflows using Azure and Linux HPC environments.
+- Deliver the core analytical capability underpinning MIRICO's methane emissions monitoring platform.
+- Collaborate closely with customers, regulators, and internal stakeholders to translate complex probabilistic outputs into actionable operational insight.
+- Mentor data scientists and promote best practice in Bayesian modelling, software engineering, and analytical development.
 
 ## Experience
 **Senior Scientist — Evotec Ltd (UK) — 2020–2021**  
