@@ -8,25 +8,13 @@ header:
   overlay_image: /images/karri_forest.png
   caption: "Photo: Karri Forests"
   actions:
-    - label: "View projects"
-      url: "/projects/"
+    - label: "View CV"
+      url: "/cv/"
 excerpt: "Probabilistic methane analytics, ML engineering, and stakeholder-ready communication."
 intro:
   - excerpt: |
       I’m a data scientist focused on methane emissions monitoring, anomaly detection, and climate-aligned operations. My work blends Bayesian modelling, plume physics, and practical storytelling so operators can act fast on uncertainty.
-feature_row:
-  - image_path: /images/temp.png
-    title: "Methane analytics"
-    excerpt: "RJ-MCMC plume localisation, OGMP 2.0 reporting.
-"
-  - image_path: /images/temp2.png
-    title: "Recommender systems"
-    excerpt: "MovieLens regularisation project hitting 0.86 RMSE."
-  - image_path: /images/temp3.png
-    title: "Fraud detection"
-    excerpt: "Cost-sensitive forests catching 100% of fraud cases."
 footer:
   - excerpt: "Let’s connect on [LinkedIn](https://www.linkedin.com/in/jwschmidberger/) or [GitHub](https://github.com/jwschmidberger)."
 ---
 {% include feature_row id="intro" type="center" %}
-{% include feature_row %}
