@@ -1,0 +1,4 @@
+region	reference_residues	msa_columns_1_based	alignment_length	sequences
+N	1-129	16-154	139	69
+linker_excluded	130-161	155-217	NA	NA
+C	162-296	218-384	167	69

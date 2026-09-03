@@ -1,0 +1,23 @@
+Query         DehI_N_terminal
+Match_columns 123
+No_of_seqs    68 out of 69
+Neff          5.5
+Searched_HMMs 1
+Date          Thu Sep  3 21:11:51 2026
+Command       hhalign -i /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_N_terminal.hhm -t /Users/jasonschmidberger/code/small_projects/projects/dehi/results/cmd_PF02627_nr60.hhm -o /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_N_vs_CMD.hhr -Oa3m /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_N_vs_CMD.a3m -atab /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_N_vs_CMD.tsv 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 CMD_PF02627_non_AhpD             0.2    0.28    0.28    9.5   0.0   10   86-95     66-75  (124)
+
+No 1
+>CMD_PF02627_non_AhpD
+Probab=0.21  E-value=0.28  Score=9.46  Aligned_cols=10  Identities=30%  Similarity=0.451  Sum_probs=6.2  Template_Neff=9.400
+
+Q 3BJX             92 AAGFDDGEIE  101 (129)
+Q Consensus        86 ~~~~~~~~~~   95 (123)
+                      ..|+++.++.
+T Consensus        66 ~~G~t~~~i~   75 (124)
+T tr|I7Z8J4|I7Z8   86 NNGVTRDEI-   94 (129)
+Confidence            3566777664
+
+

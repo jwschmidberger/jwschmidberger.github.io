@@ -1,0 +1,23 @@
+Query         CMD_PF02627_non_AhpD
+Match_columns 124
+No_of_seqs    104 out of 7266
+Neff          9.4
+Searched_HMMs 1
+Date          Thu Sep  3 21:11:53 2026
+Command       hhalign -i /Users/jasonschmidberger/code/small_projects/projects/dehi/results/cmd_PF02627_nr60.hhm -t /Users/jasonschmidberger/code/small_projects/projects/dehi/results/ahpd_IPR004674_nr60.hhm -o /Users/jasonschmidberger/code/small_projects/projects/dehi/results/CMD_vs_AhpD.hhr -Oa3m /Users/jasonschmidberger/code/small_projects/projects/dehi/results/CMD_vs_AhpD.a3m -atab /Users/jasonschmidberger/code/small_projects/projects/dehi/results/CMD_vs_AhpD.tsv 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 AhpD_IPR004674                  97.0 8.3E-11 8.3E-11   55.4   0.0   43   33-75    111-153 (175)
+
+No 1
+>AhpD_IPR004674
+Probab=97.04  E-value=8.3e-11  Score=55.41  Aligned_cols=43  Identities=26%  Similarity=0.378  Sum_probs=38.6  Template_Neff=4.200
+
+Q tr|I7Z8J4|I7Z8   54 G-LPRHTRSLLTIAMmaAL--Grdc-E--LRLHVNAARNNGVTRDEI-   94 (129)
+Q Consensus        33 ~~l~~~~~el~~l~~..a~~~~...~~~c~~~h~~~a~~~G~t~~~i~   75 (124)
+                      ++++..+.||+.+++  |..||   |+.|++.|.+..++.|+++++|.
+T Consensus       111 Pgv~K~dFEL~sLAV..SAING...C~~Ci~sHe~~l~~~G~s~e~I~  153 (175)
+T tr|A0A0D8B5T5|  111 PGVDKVDFELWSLAV..SAING...CGRCLTAHEHELRGRGVTREVIQ  153 (185)
+Confidence            346767789999999  99999   99999999999999999999995
+
+

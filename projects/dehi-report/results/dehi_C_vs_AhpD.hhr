@@ -1,0 +1,31 @@
+Query         DehI_C_terminal
+Match_columns 113
+No_of_seqs    68 out of 69
+Neff          6
+Searched_HMMs 1
+Date          Thu Sep  3 21:11:53 2026
+Command       hhalign -i /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_C_terminal.hhm -t /Users/jasonschmidberger/code/small_projects/projects/dehi/results/ahpd_IPR004674_nr60.hhm -o /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_C_vs_AhpD.hhr -Oa3m /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_C_vs_AhpD.a3m -atab /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_C_vs_AhpD.tsv 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 AhpD_IPR004674                   4.1    0.01    0.01   19.6   0.0   72   34-106     9-87  (175)
+
+No 1
+>AhpD_IPR004674
+Probab=4.12  E-value=0.01  Score=19.65  Aligned_cols=72  Identities=15%  Similarity=0.088  Sum_probs=37.5  Template_Neff=4.200
+
+Q 3BJX             34 NWPKVLQIVTDEvLAPVARTEQYDAKSRELVTRARELVRGLP-GSAGVQRSELMSMLTPNELA------GLTGVLFMYQR  106 (135)
+Q Consensus        34 ~wP~~L~~~W~~.LkP~i~s~~y~~~~~~l~~~A~~~v~~lP-~~v~l~~~~L~~~~~~~~i~------~i~~l~~~F~~  105 (113)
+                      .-|+|...+.-. |+..++++.......-....|...+.+-| .-..+..+. +...++++++      .+|+.-..|.|
+T Consensus         9 ~lP~yAKDlklN.l~~vl~~~~Lt~~q~~g~aLA~A~a~r~~~l~~ai~~eA-~~~ls~~~~~aA~aaAslMaMNNVyYR   86 (175)
+T tr|A0A0D8B5T5|    9 LLPDYARDLRLN.LGSVTSQSNLSAQQLWGTVLAAAIASRGRTALVELEPEA-LDHLTAEAAAAARTAAALMAMNNVYYR   86 (185)
+Confidence            458888888888 88888777654443333344444433322 222233322 2233444443      45555555555
+
+
+Q 3BJX            107 F  107 (135)
+Q Consensus       106 ~  106 (113)
+                      |
+T Consensus        87 f   87 (175)
+T tr|A0A0D8B5T5|   87 S   87 (185)
+Confidence            4
+
+

@@ -1,0 +1,31 @@
+Query         CMD_monomer_015
+Match_columns 107
+No_of_seqs    10 out of 10
+Neff          3.4
+Searched_HMMs 1
+Date          Thu Sep  3 21:54:57 2026
+Command       hhalign -i results/cmd_monomer_clusters/CMD_monomer_015.hhm -t results/cmd_monomer_clusters/CMD_monomer_003.hhm -o results/cmd_monomer_clusters/CMD_monomer_015_vs_003.hhr 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 CMD_monomer_003                 98.6 8.7E-16 8.7E-16   85.9   0.0   77   14-103     8-85  (112)
+
+No 1
+>CMD_monomer_003
+Probab=98.60  E-value=8.7e-16  Score=85.90  Aligned_cols=77  Identities=22%  Similarity=0.452  Sum_probs=66.5  Template_Neff=5.300
+
+Q tr|A0ABP8DVF7|   14 AGTQRILDNVGAQFGFVPNMFRTIASNPTVLEAVTTLQGT-MSR-VLDAKTRHSIALAVSQANGCDYCLAIHTYVSFeFG   91 (107)
+Q Consensus        14 ~~s~~ll~a~~~~~G~vPNm~~~~A~SP~~L~~~l~l~~~-~~~g~L~~k~re~IaLavse~ngC~YClaAHT~~~~.~~   91 (107)
+                      ...++++.++++..             |+.+++|.+|..+ +..|.||.|++|.|+|+|+-...|.||+..||..+. ++
+T Consensus         8 ~~~~~~l~~~~~~~-------------P~~~~af~~f~~a~~~~GaL~~K~KeLIAlaia~~tqC~yCI~~H~~~A~.~a   73 (112)
+T tr|A0A8A7KB27|    6 ---REMLEAFHNGVgavkets------GEQVNAFMNMLGACDKPGELDAKQKELISIGIALVIRCEYCIVYHVYEAL.KA   75 (117)
+Confidence            34566777777665             8899999999875 445889999999999999999999999999999999 99
+
+
+Q tr|A0ABP8DVF7|   92 GTARVKIFEAGW  103 (107)
+Q Consensus        92 G~~~~~~~~~~~  103 (107)
+                      |-++..+.|+.+
+T Consensus        74 GAT~eEI~Ea~~   85 (112)
+T tr|A0A8A7KB27|   76 GATKEEIMEAAM   87 (117)
+Confidence            999999888554
+
+

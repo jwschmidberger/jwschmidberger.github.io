@@ -1,0 +1,31 @@
+Query         DehI_N_terminal
+Match_columns 123
+No_of_seqs    68 out of 69
+Neff          5.5
+Searched_HMMs 1
+Date          Thu Aug 20 21:35:13 2026
+Command       hhalign -i /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_N_terminal.hhm -t /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_C_terminal.hhm -o /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_N_vs_C.hhr -Oa3m /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_N_vs_C.a3m -atab /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_N_vs_C.tsv 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 DehI_C_terminal                 99.5 2.9E-23 2.9E-23  124.4   0.0  108    5-113     2-112 (113)
+
+No 1
+>DehI_C_terminal
+Probab=99.54  E-value=2.9e-23  Score=124.39  Aligned_cols=108  Identities=17%  Similarity=0.123  Sum_probs=94.6  Template_Neff=6.000
+
+Q 3BJX             12 QLDVSGEMESTYEDIRLTLRVPWVAFGCRVLATFPGYLPLAWRR.SAEALITRYAEQAADELRERSLLNIGPLPNL-K-E   88 (129)
+Q Consensus         5 e~eA~g~~~~vY~DIk~tLrVP~Vn~ifRtlA~yp~fl~~~W~~.~rP~~~T~~fe~aA~~lR~~~~~~~~~~~~~-~-~   81 (123)
+                      +.++.+.++++|+|||+++|.|.||..+|+||+||+||..+|+. +||..+|.+|++++++++..+...+...+-+ . .
+T Consensus         2 ~~~~~~~~~~l~~dI~~~h~~~~v~SdYR~LA~wP~~L~~~W~~.LkP~i~s~~y~~~~~~l~~~A~~~v~~lP~~v~l~   80 (113)
+T 3BJX              2 ATKASTEVQGLLKRVADLHYHHGPASDFQALANWPKVLQIVTDEvLAPVARTEQYDAKSRELVTRARELVRGLPGSAGVQ   81 (135)
+Confidence            56889999999999999999999999999999999999999999 9999999999999999999888877765332 1 1
+
+
+Q 3BJX             89 --RLYAAGFDDGEIEKVRRVLYAFNYGNPKYLL  119 (129)
+Q Consensus        82 ~-~~~~~~~~~~~~~~ir~~l~~f~~vnPklLl  113 (123)
+                      . .+.+.+ ++.++++|.+.+..|...-|-++|
+T Consensus        81 ~~~L~~~~-~~~~i~~i~~l~~~F~~~lp~Lil  112 (113)
+T 3BJX             82 RSELMSML-TPNELAGLTGVLFMYQRFIADITI  113 (135)
+Confidence            1 555555 899999999999999988877654
+
+

@@ -1,0 +1,28 @@
+cluster	representative	sequence_count	minimum_length	median_length	maximum_length	representative_description
+CMD_monomer_001	A0A8J3Y8J0	322	81	109	119	tr|A0A8J3Y8J0|A0A8J3Y8J0_9ACTN 4-carboxymuconolactone decarboxylase OS=Spirilliplanes yamanashiensis OX=42233 GN=pcaC PE=4 SV=1
+CMD_monomer_002	A0A846X9N8	246	80	113	119	tr|A0A846X9N8|A0A846X9N8_9ACTN Carboxymuconolactone decarboxylase family protein OS=Tsukamurella spumae OX=44753 GN=HF999_21750 PE=4 SV=1
+CMD_monomer_003	A0A8A7KB27	117	87	113	119	tr|A0A8A7KB27|A0A8A7KB27_9FIRM Carboxymuconolactone decarboxylase family protein OS=Iocasia frigidifontis OX=2682810 GN=GM661_12100 PE=4 SV=1
+CMD_monomer_004	A0ABS5U4B5	68	83	106.5	119	tr|A0ABS5U4B5|A0ABS5U4B5_9BACT Carboxymuconolactone decarboxylase family protein OS=Pelotalea chapellei OX=44671 GN=KJB30_01865 PE=4 SV=1
+CMD_monomer_005	K4LXF0	45	82	102	116	tr|K4LXF0|K4LXF0_THEPS Carboxymuconolactone decarboxylase-like domain-containing protein OS=Thermacetogenium phaeum (strain ATCC BAA-254 / DSM 26808 / PB) OX=1089553 GN=Tph_c24850 PE=4 SV=1
+CMD_monomer_006	A0A1U9NPJ5	39	94	111	115	tr|A0A1U9NPJ5|A0A1U9NPJ5_9BACT Alkylhydroperoxidase/carboxymuconolactone decarboxylase family protein OS=Anaerohalosphaera lusitana OX=1936003 GN=STSP2_02721 PE=4 SV=1
+CMD_monomer_007	A0ABP3VWY4	35	82	106	119	tr|A0ABP3VWY4|A0ABP3VWY4_9BURK Carboxymuconolactone decarboxylase family protein OS=Ideonella azotifigens OX=513160 GN=GCM10009107_57440 PE=4 SV=1
+CMD_monomer_008	A0A2S0HXW8	30	94	115	119	tr|A0A2S0HXW8|A0A2S0HXW8_9FLAO Carboxymuconolactone decarboxylase family protein OS=Pukyongia salina OX=2094025 GN=C5O00_09830 PE=4 SV=1
+CMD_monomer_009	A0A266Q8Y4	27	91	103	119	tr|A0A266Q8Y4|A0A266Q8Y4_9GAMM Carboxymuconolactone decarboxylase OS=Cellvibrio mixtus OX=39650 GN=CBP51_01950 PE=4 SV=1
+CMD_monomer_010	A0A4Q2JJ73	22	101	109	119	tr|A0A4Q2JJ73|A0A4Q2JJ73_9MICO Carboxymuconolactone decarboxylase-like domain-containing protein OS=Agromyces fucosus OX=41985 GN=ESP57_17095 PE=4 SV=1
+CMD_monomer_011	A0ABN3FHE9	21	87	110	119	tr|A0ABN3FHE9|A0ABN3FHE9_9PSEU Carboxymuconolactone decarboxylase-like domain-containing protein OS=Saccharopolyspora halophila OX=405551 GN=GCM10009854_01080 PE=4 SV=1
+CMD_monomer_012	A0A7J5UL67	20	99	111.5	118	tr|A0A7J5UL67|A0A7J5UL67_9ACTN Carboxymuconolactone decarboxylase family protein OS=Georgenia thermotolerans OX=527326 GN=GB883_15960 PE=4 SV=1
+CMD_monomer_013	A0ABV9TW09	17	91	102	114	tr|A0ABV9TW09|A0ABV9TW09_9ACTN Carboxymuconolactone decarboxylase family protein OS=Actinomadura gamaensis OX=1763541 GN=ACFPCY_13325 PE=4 SV=1
+CMD_monomer_014	F6B2P4	12	83	87	107	tr|F6B2P4|F6B2P4_DESCC Carboxymuconolactone decarboxylase OS=Desulfotomaculum nigrificans (strain DSM 14880 / VKM B-2319 / CO-1-SRB) OX=868595 GN=Desca_1000 PE=4 SV=1
+CMD_monomer_015	A0ABP8DVF7	10	90	110	119	tr|A0ABP8DVF7|A0ABP8DVF7_9ACTN Carboxymuconolactone decarboxylase-like domain-containing protein OS=Dactylosporangium darangshiense OX=579108 GN=GCM10022255_113790 PE=4 SV=1
+CMD_monomer_016	A0ABW9E552	10	86	107.5	119	tr|A0ABW9E552|A0ABW9E552_9BURK Carboxymuconolactone decarboxylase family protein OS=Paraburkholderia metrosideri OX=580937 GN=PQQ63_38395 PE=4 SV=1
+CMD_monomer_017	A0ABY7GUB4	9	81	84	90	tr|A0ABY7GUB4|A0ABY7GUB4_9BACT Carboxymuconolactone decarboxylase family protein OS=Nannocystis punicea OX=2995304 GN=O0S08_30535 PE=4 SV=1
+CMD_monomer_018	A0A7Z0WEM5	8	89	104	118	tr|A0A7Z0WEM5|A0A7Z0WEM5_9PSEU Carboxymuconolactone decarboxylase-like domain-containing protein OS=Actinophytocola xinjiangensis OX=485602 GN=BLA60_37555 PE=4 SV=1
+CMD_monomer_019	A0AA51YJS6	8	93	97	115	tr|A0AA51YJS6|A0AA51YJS6_9EURY Carboxymuconolactone decarboxylase family protein OS=Methanolobus mangrovi OX=3072977 GN=RE476_03535 PE=4 SV=1
+CMD_monomer_020	A0ABW7YKT8	7	88	97	108	tr|A0ABW7YKT8|A0ABW7YKT8_9ACTN Carboxymuconolactone decarboxylase family protein OS=Nonomuraea typhae OX=2603600 GN=ACIBG2_02750 PE=4 SV=1
+CMD_monomer_021	A0A150KW97	6	90	113.5	119	tr|A0A150KW97|A0A150KW97_9BACI Carboxymuconolactone decarboxylase-like domain-containing protein OS=Heyndrickxia sporothermodurans OX=46224 GN=B4102_3342 PE=4 SV=1
+CMD_monomer_022	A0A2A2H1Y6	6	106	115	119	tr|A0A2A2H1Y6|A0A2A2H1Y6_METBR Carboxymuconolactone decarboxylase-like domain-containing protein OS=Methanobacterium bryantii OX=2161 GN=ASJ80_00060 PE=4 SV=1
+CMD_monomer_023	A0ABS1Y5H5	6	84	90	96	tr|A0ABS1Y5H5|A0ABS1Y5H5_9CORY Carboxymuconolactone decarboxylase family protein OS=Corynebacterium macginleyi OX=38290 GN=GWO63_004405 PE=4 SV=1
+CMD_monomer_024	A0ABS8WAL3	6	88	94	98	tr|A0ABS8WAL3|A0ABS8WAL3_9GAMM Carboxymuconolactone decarboxylase family protein OS=Motilimonas cestriensis OX=2742685 GN=K6Y31_07340 PE=4 SV=1
+CMD_monomer_025	A0A137ZJI2	5	84	105	111	tr|A0A137ZJI2|A0A137ZJI2_9ACTN Carboxymuconolactone decarboxylase-like domain-containing protein OS=Tsukamurella pseudospumae OX=239498 GN=AXK61_20240 PE=4 SV=1
+CMD_monomer_026	A0A6I6JSP6	5	112	116	117	tr|A0A6I6JSP6|A0A6I6JSP6_9BACT Carboxymuconolactone decarboxylase family protein OS=Pseudodesulfovibrio cashew OX=2678688 GN=GM415_10875 PE=4 SV=1
+CMD_monomer_027	A0ABS0RVP0	5	82	100	114	tr|A0ABS0RVP0|A0ABS0RVP0_9ACTN Carboxymuconolactone decarboxylase family protein OS=Streptomyces javensis OX=114698 GN=JBF12_48710 PE=4 SV=1

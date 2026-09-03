@@ -1,0 +1,15 @@
+Query         DehI_C_terminal
+Match_columns 113
+No_of_seqs    68 out of 69
+Neff          6
+Searched_HMMs 1
+Date          Thu Sep  3 21:11:51 2026
+Command       hhalign -i /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_C_terminal.hhm -t /Users/jasonschmidberger/code/small_projects/projects/dehi/results/cmd_PF02627_nr60.hhm -o /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_C_vs_CMD.hhr -Oa3m /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_C_vs_CMD.a3m -atab /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_C_vs_CMD.tsv 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 CMD_PF02627_non_AhpD             0.1    0.42    0.42    8.1   0.0    1   92-92     73-73  (124)
+
+No 1
+>CMD_PF02627_non_AhpD
+Probab=0.14  E-value=0.42  Score=8.08  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=9.400
+

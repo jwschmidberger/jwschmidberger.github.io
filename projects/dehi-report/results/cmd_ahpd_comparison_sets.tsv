@@ -1,0 +1,3 @@
+group	source	input_sequences	retained_sequences	min_length	max_length	nonstandard_to_X
+CMD-like	PF02627 nr60, CMD annotation	12656	7266	80	220	2
+AhpD	IPR004674 nr60	178	172	120	229	0

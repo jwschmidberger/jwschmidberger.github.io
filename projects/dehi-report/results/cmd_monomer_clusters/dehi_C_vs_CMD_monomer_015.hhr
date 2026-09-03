@@ -1,0 +1,23 @@
+Query         DehI_C_terminal
+Match_columns 113
+No_of_seqs    68 out of 69
+Neff          6
+Searched_HMMs 1
+Date          Thu Sep  3 21:53:48 2026
+Command       hhalign -i /Users/jasonschmidberger/code/small_projects/projects/dehi/results/dehi_C_terminal.hhm -t /Users/jasonschmidberger/code/small_projects/projects/dehi/results/cmd_monomer_clusters/CMD_monomer_015.hhm -o /Users/jasonschmidberger/code/small_projects/projects/dehi/results/cmd_monomer_clusters/dehi_C_vs_CMD_monomer_015.hhr 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 CMD_monomer_015                 81.0 1.2E-05 1.2E-05   32.6   0.0   64    2-68      9-72  (107)
+
+No 1
+>CMD_monomer_015
+Probab=80.99  E-value=1.2e-05  Score=32.59  Aligned_cols=64  Identities=23%  Similarity=0.263  Sum_probs=47.6  Template_Neff=3.400
+
+Q 3BJX              2 ATKASTEVQGLLKRVADLHYHHGPASDFQALANWPKVLQIVTDEvLAPVARTEQYDAKSRELVTRARE   69 (135)
+Q Consensus         2 ~~~~~~~~~~l~~dI~~~h~~~~v~SdYR~LA~wP~~L~~~W~~.LkP~i~s~~y~~~~~~l~~~A~~   68 (113)
+                      +++++.+.+.+|+.|++.+|+-  +-.||..|+-|..|. .|.. +.-.+........-.+.+..|..
+T Consensus         9 ~~~a~~~s~~ll~a~~~~~G~v--PNm~~~~A~SP~~L~-~~l~.l~~~~~~g~L~~k~re~IaLavs   72 (107)
+T tr|A0ABP8DVF7|    9 LDDAPAGTQRILDNVGAQFGFV--PNMFRTIASNPTVLE-AVTT.LQGTMSR-VLDAKTRHSIALAVS   71 (107)
+Confidence            4678999999999999999973  558999999999886 5777 76666665555555554444443
+
+
